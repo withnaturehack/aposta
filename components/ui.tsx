@@ -15,9 +15,9 @@ export function PageHeader({ title, subtitle, action }: {
   )
 }
 
-export function Card({ children, style }: { children: React.ReactNode; style?: React.CSSProperties }) {
+export function Card({ children, style, className }: { children: React.ReactNode; style?: React.CSSProperties; className?: string }) {
   return (
-    <div style={{
+    <div className={className} style={{
       background:'var(--card)', border:'1px solid var(--border)',
       borderRadius:12, overflow:'hidden', ...style,
     }}>{children}</div>
