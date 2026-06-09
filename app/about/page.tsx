@@ -1,7 +1,5 @@
 export const metadata = { title: 'About — Apotsa' }
 
-import { PageHeader, Card } from '@/components/ui'
-
 import Link from 'next/link'
 import { PageHeader, Card, Grid2, Btn } from '@/components/ui'
 
